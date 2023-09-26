@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-20b13445","path":"/api-reference/exceptions.html","title":"Exceptions","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1695698818000,"contributors":[{"name":"Tokuhiro Matsuno","email":"tokuhirom@gmail.com","commits":1}]},"filePathRelative":"api-reference/exceptions.md"}');export{e as data};
