@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-5f3cc9ce","path":"/getting-started/requirements.html","title":"Requirements","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1696293796000,"contributors":[{"name":"Yuta Kasai","email":"kasai.yuta0810@gmail.com","commits":1}]},"filePathRelative":"getting-started/requirements.md"}');export{t as data};
