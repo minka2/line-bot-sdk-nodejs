@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-07bef54e","path":"/getting-started/install.html","title":"Install","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1709880572000,"contributors":[{"name":"Pengoose","email":"dkedid@naver.com","commits":1}]},"filePathRelative":"getting-started/install.md"}');export{t as data};
