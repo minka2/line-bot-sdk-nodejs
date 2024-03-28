@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-25b64cef","path":"/apidocs/modules/webhook.PnpDeliveryCompletionEvent.html","title":"Namespace: PnpDeliveryCompletionEvent","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"apidocs/modules/webhook.PnpDeliveryCompletionEvent.md"}');export{e as data};

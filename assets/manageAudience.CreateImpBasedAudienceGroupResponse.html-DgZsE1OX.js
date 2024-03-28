@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-31fb806a","path":"/apidocs/modules/manageAudience.CreateImpBasedAudienceGroupResponse.html","title":"Namespace: CreateImpBasedAudienceGroupResponse","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"apidocs/modules/manageAudience.CreateImpBasedAudienceGroupResponse.md"}');export{e as data};

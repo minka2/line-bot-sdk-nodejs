@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-729c362a","path":"/apidocs/modules/messagingApi.MessageQuotaResponse.html","title":"Namespace: MessageQuotaResponse","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"apidocs/modules/messagingApi.MessageQuotaResponse.md"}');export{e as data};

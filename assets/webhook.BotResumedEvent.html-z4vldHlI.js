@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3e646161","path":"/apidocs/modules/webhook.BotResumedEvent.html","title":"Namespace: BotResumedEvent","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"apidocs/modules/webhook.BotResumedEvent.md"}');export{e as data};
