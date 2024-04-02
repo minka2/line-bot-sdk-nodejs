@@ -1,23 +1,11 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
     "esModuleInterop": true,
-    "target": "ES2018",
-    "noImplicitAny": true,
-    "newLine": "LF",
-    "sourceMap": true,
-    "declarationMap": true,
-    "outDir": "dist",
-    "rootDirs": ["lib", "test"],
-    "declaration": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "lib/**/*.ts",
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".git"
-  ],
+  "exclude": ["node_modules"]
 }

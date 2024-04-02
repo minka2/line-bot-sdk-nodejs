@@ -1,60 +1,59 @@
-# LINE Messaging API SDK for nodejs
+# Echo Bot for LINE using TypeScript and CJS
 
-[![Github Action](https://github.com/line/line-bot-sdk-nodejs/actions/workflows/test.yml/badge.svg)](https://github.com/line/line-bot-sdk-nodejs/actions/workflows/test.yml)
-[![npmjs](https://badge.fury.io/js/%40line%2Fbot-sdk.svg)](https://www.npmjs.com/package/@line/bot-sdk)
+Welcome to this simple guide on how to create an Echo Bot for the LINE messaging platform using TypeScript and CommonJS (CJS).
+An Echo Bot is a basic bot that replies to a user's message with the same content.
+This tutorial will help you set up a LINE Echo Bot from scratch.
 
+## Prerequisite
 
-## Introduction
-The LINE Messaging API SDK for nodejs makes it easy to develop bots using LINE Messaging API, and you can create a sample bot within minutes.
-
-## Documentation
-
-See the official API documentation for more information
-
-- English: https://developers.line.biz/en/docs/messaging-api/overview/
-- Japanese: https://developers.line.biz/ja/docs/messaging-api/overview/
-
-line-bot-sdk-nodejs documentation: https://line.github.io/line-bot-sdk-nodejs/#getting-started
-
-## Requirements
-
-* **Node.js** 18 or higher
+- Node.js version 18 or higher
+- You've created a channel in the LINE Developers Console, and got your channel access token and channel secret.
+  - Read https://developers.line.biz/en/docs/messaging-api/getting-started/#using-console if you haven't done this yet.
 
 ## Installation
 
-Using [npm](https://www.npmjs.com/):
+- Clone the repository.
 
-``` bash
-$ npm install @line/bot-sdk --save
+```bash
+git clone https://github.com/line/line-bot-sdk-nodejs.git
 ```
 
-## Help and media
-FAQ: https://developers.line.biz/en/faq/
+- Change directory to the example.
 
-News: https://developers.line.biz/en/news/
-
-## Versioning
-This project respects semantic versioning
-
-See http://semver.org/
-
-## Contributing
-
-Please check [CONTRIBUTING](CONTRIBUTING.md) before making a contribution.
-
-## License
+```bash
+cd line-bot-sdk-nodejs/examples/echo-bot-ts-cjs
 ```
-Copyright (C) 2016 LINE Corp.
- 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
- 
-   http://www.apache.org/licenses/LICENSE-2.0
- 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+
+- Install all dependencies.
+
+```bash
+npm run build-sdk
+npm install
 ```
+
+- Configure all the environment variables.
+
+```bash
+export CHANNEL_ACCESS_TOKEN=<YOUR_CHANNEL_ACCESS_TOKEN>
+export CHANNEL_SECRET=<YOUR_CHANNEL_SECRET>
+export PORT=<YOUR_PORT>
+```
+
+- Set up your webhook URL in your LINE Official Account to be in the following format. Don't forget to disable the greeting messages and auto-response messages for convenience.
+
+```bash
+https://example.com/callback
+```
+
+- Build the application.
+
+```bash
+npm run build
+```
+
+- Run the application.
+
+```bash
+npm start
+```
+
